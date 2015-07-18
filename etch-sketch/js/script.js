@@ -37,8 +37,8 @@ function createGrid(squares) {
         };
         $('#container').append('<br>');
     };
-    $('div > div').width(size).height(size);
-    $('div > div').hover(function() {
+    $('#container > div').width(size).height(size);
+    $('#container > div').hover(function() {
         $(this).css('background-color', '#a739a0');
     });
 };
