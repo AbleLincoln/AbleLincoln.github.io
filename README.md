@@ -1,3 +1,6 @@
 AbleLincoln.github.io
-
-a place to display basic html/css for our project - (this is a step above wireframing)
+=====================
+So it begins... on a mumble lil' blog.
+Brand New Blues
+---------------
+My site for learning, experimenting, and documenting Ableham Lincoln's meteoric rise through the ranks of the programming world.

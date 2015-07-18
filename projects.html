@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="style.css">
+  <script src="js/multiples.js"></script>
+  <script src="js/fibonacci.js"></script>
+  <script src="js/largest-prime.js"></script>
+  <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+  <script type="text/javascript" src="js/scripty.js"></script>
+  <script src="etch-sketch/js/jquery-1.11.3.min.js"></script>
+  <script src="etch-sketch/js/script.js"></script>
+</head>
+
+<body>
+  <header>
+    <h1>Brand New Blues</h1>
+    <nav>
+      <a href="bio.html">About Me</a>
+      <div id="me">
+        <img src="images/8E2A4736%20copy.jpg">
+        <div class="container">
+          <h2>Andrew P. Maney</h2>
+          <p>I am a performer turned programmer. Halfway through my freshmen year of college I began a weird transition from theatre to physics/computer science. I have no clue what I am doing.</p>
+        </div>
+        <p><strong>Education:</strong> University of Southern California</p>
+        <p><strong>Hometown:</strong> Wellesley, MA</p>
+
+      </div>
+      <a href="projects.html">Projects</a>
+    </nav>
+    <div id="divider"></div>
+  </header>
+  <article>
+    <h2>Project Euler</h2>
+    <p>Mathmatical problem-solving with Javascript
+      <p>
+        <h3>1. Sum of Multiples</h3>
+        <p>The sum of all the multiples of
+          <input type="number" min="1" max="100" value="3" id="num1"> and
+          <input type="number" min="1" max="100" value="5" id="num2"> below
+          <input type="number" min="1" max="1000" value="1000" id="max"> is <span id="answer1"></span></p>
+        <button onclick="multiples()">Compute!</button>
+
+        <h3>2. Sum of even Fibonacci numbers</h3>
+        <p>The sum of the even terms of the Fibonnacci sequence below
+          <input type="number" min="1" max="10000000" value="4000000" id="max2"> is <span id="answer2"></span></p>
+        <button onclick="fibonacci()">Compute!</button>
+
+        <h3>3. Largest prime factor</h3>
+        <p>The largest prime factor of
+          <input type="number" min="1" max="10000000" value="1000" id="num3"> is <span id="answer3"></span></p>
+        <button onclick="prime()">Compute!</button>
+  </article>
+  <div id="divider"></div>
+  <article id="etch-sketch">
+    <h2>Etch-a-Sketch</h2>
+    <div id="container"></div>
+    <button name="reset">Reset!</button>
+    <button name="changeGrid">Change the grid!</button>
+    <button name="eraser">Eraser</button>
+    <button name="pen">Pen</button>
+    <button name="color">Change pen color</button>
+    <button name="border">Remove grid lines</button>
+  </article>
+</body>
+
+</html>
