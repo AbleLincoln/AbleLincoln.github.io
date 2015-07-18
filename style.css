@@ -15,12 +15,12 @@ a:link {
   color: #000;
 }
 header {
-  background-color: #ddd
+  background-color: #ddd;
 }
 header h1,
 header nav {
   display: inline-block;
-  margin-bottom: 0px;
+  margin: 30px 0px 15px 50px;
   line-height: 10px;
 }
 nav {
@@ -58,6 +58,8 @@ nav a {
   width: 150px;
   bottom: 0;
   top: 0;
+  border: 1px solid #ccc;
+  border-width: 0px 1px 1px 0px;
 }
 #sidebar h2 {
   padding: 0px 5px;
