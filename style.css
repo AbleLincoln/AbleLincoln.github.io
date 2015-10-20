@@ -1,98 +1,181 @@
+* {
+  margin: 0;
+}
+
 body {
   font-family: sans-serif;
   margin: 0;
-}
-article {
-  margin: 30px;
-}
-a {
-  text-decoration: none;
-}
-a:visited {
-  color: #000;
-}
-a:link {
-  color: #000;
-}
-header {
-  background-color: #ddd;
-}
-header h1,
-header nav {
-  display: inline-block;
-  margin: 30px 0px 15px 50px;
-  line-height: 10px;
-}
-nav {
-  margin: 0px 35px;
-}
-nav a {
-  margin: 0px 10px;
-}
-#me img {
-  height: 175px;
-  width: auto;
-  margin-bottom: -20px
-}
-#me {
-  position: absolute;
-  height: auto;
-  width: auto;
-}
-#me img,
-#me .container {
-  display: inline-block;
-}
-.container {
-  width: 250px;
-  line-height: normal
-}
-#divider {
-  background-color: #539CE6;
-  width: 100%;
-  height: 5px
-}
-#sidebar {
-  float: left;
-  background-color: #ddd;
-  width: 150px;
-  bottom: 0;
-  top: 0;
-  border: 1px solid #ccc;
-  border-width: 0px 1px 1px 0px;
-}
-#sidebar h2 {
-  padding: 0px 5px;
-  line-height: 5px
-}
-#sidebar div {
-  margin-bottom: 30px
-}
-#sidebar ul {
-  list-style-type: none;
-  padding: 0px 5px;
-  text-align: right;
-}
-#sidebar img {
-  max-width: 200px;
-  max-height: 180px;
-  position: absolute;
-  margin: -65px 0px 0px 150px
-}
-#sidebar span {
-  margin-left: 10px
+  margin-top: -21px;
 }
 
-/*etch-sketch*/
-#etch-sketch {
-  line-height: 0px;
+header {
+  background-color: #96E9ee;
 }
-.square {
+
+header div.container {
+  width: 50%;
+  margin: auto;
+  padding: 50px 30px;
+  padding-top: 75px;
+  text-align: center;
+}
+
+header h1, h2 {
   display: inline-block;
-  margin: 0px;
-  border: 1px solid black;
+  color: #fff;
+  text-align: left;
+  margin-left: 20px;
+}
+
+header h1 {
+  font-size: 60px;
+  color: #445;
+  line-height: 1em;
+}
+
+header h2 {
+}
+
+header h2 br {
+  display: block;
+  margin: 10px 0;
+  content: " ";
+}
+
+header ul {
+  list-style: none;
+  margin-top: 35px
+}
+
+header ul li {
+  display: inline-block;
+}
+
+header ul li a {
+  color: #445;
+  text-decoration: none;
+  padding: 8px;
+  border: 2px solid #445;
+  border-radius: 5px;
+  margin-left: 25px;
+  
+  -webkit-transition: background-color 200ms ease;
+  transition: background-color 200ms ease;
+}
+
+header ul li a:hover {
+/*  color: #96e9ee;*/
   background-color: #fff;
 }
-.highlighted {
-  background-color: #a739a0
+
+/*Projects*/
+
+article {
+/*  height: 400px;*/
+  height: 250px;
+  background-color: #ddd;
+  padding: 50px;
+  position: relative;
+}
+
+article.projects {
+  background-color: #fff;
+  height: 100%
+}
+
+article.projects h2 {
+  color: #445
+}
+
+article div.title {
+  margin-top: 100px;
+  text-align: center;
+}
+
+article div.title h1 {
+  font-weight: lighter;
+}
+
+article div.title p {
+  margin-top: 30px;
+}
+
+article div.content {
+  display: none;
+}
+
+article div.content img {
+  float: left;
+}
+
+article div.content p {
+  width: 35%;
+  float: right;
+  font-size: 20px;
+  line-height: 1.45em;
+  color: #fff;
+}
+
+article div.content p.button {
+  text-align: center;
+  margin-top: 50px
+}
+
+article p.button a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  
+  -webkit-transition: background-color 200ms ease;
+  transition: background-color 200ms ease;
+  
+  -webkit-transition: color 200ms ease;
+  transition: color 200ms ease;
+}
+
+article p.button a:hover {
+  background-color: #fff;
+}
+
+article#innboston p.button a:hover {
+  color: #0855A1
+}
+
+article#avaant p.button a:hover {
+  color: #900;
+}
+
+article div.content p.minimize.button {
+  position: absolute;
+  margin-top: -38px;
+  margin-left: -276px;
+}
+
+article div.content p.minimize.button a {
+  border-radius: 100px;
+  padding: 0px 10px;
+  font-size: 25px;
+}
+
+article#innboston {
+  background-color: #0855A1;
+}
+
+article#innboston div.title {
+  color: #fff;
+}
+
+article#avaant {
+  background-color: #990000;
+}
+
+article#avaant div.title {
+  color: #FACA33;
+}
+
+article#avaant img {
+  border: 5px solid #fff;
 }
