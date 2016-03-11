@@ -9,7 +9,7 @@ body {
 }
 
 header {
-  background-color: #96E9ee;
+  background-color: #445;
 }
 
 header div.container {
@@ -22,18 +22,18 @@ header div.container {
 
 header h1, h2 {
   display: inline-block;
-  color: #fff;
   text-align: left;
   margin-left: 20px;
 }
 
 header h1 {
   font-size: 60px;
-  color: #445;
+  color: #fff;
   line-height: 1em;
 }
 
 header h2 {
+  color: rgb(251, 134, 46);
 }
 
 header h2 br {
@@ -52,19 +52,19 @@ header ul li {
 }
 
 header ul li a {
-  color: #445;
+  color: #fff;
   text-decoration: none;
   padding: 8px;
-  border: 2px solid #445;
+  border: 2px solid #fff;
   border-radius: 5px;
   margin-left: 25px;
-  
+
   -webkit-transition: background-color 200ms ease;
   transition: background-color 200ms ease;
 }
 
 header ul li a:hover {
-/*  color: #96e9ee;*/
+  color: #445;
   background-color: #fff;
 }
 
@@ -128,10 +128,10 @@ article p.button a {
   border: 2px solid #fff;
   border-radius: 5px;
   cursor: pointer;
-  
+
   -webkit-transition: background-color 200ms ease;
   transition: background-color 200ms ease;
-  
+
   -webkit-transition: color 200ms ease;
   transition: color 200ms ease;
 }
