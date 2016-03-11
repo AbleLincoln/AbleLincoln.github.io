@@ -61,6 +61,7 @@ header ul li a {
 
   -webkit-transition: background-color 200ms ease;
   transition: background-color 200ms ease;
+  transition: color 200ms ease;
 }
 
 header ul li a:hover {
