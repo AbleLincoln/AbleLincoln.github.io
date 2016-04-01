@@ -157,7 +157,7 @@ article div.content p.minimize.button {
 
 article div.content p.minimize.button a {
   border-radius: 100px;
-  padding: 0px 10px;
+  padding: 0px 8px;
   font-size: 25px;
 }
 
@@ -185,8 +185,9 @@ article#devin {
   background-color: #E8E8E8;
 }
 
-article#devin div.title {
+article#devin div.title, article#devin content p, article#devin div.content p.minimize.button a {
   color: #111;
+  border-color: #111;
 }
 
 article#devin p.button a {
