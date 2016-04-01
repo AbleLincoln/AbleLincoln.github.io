@@ -185,6 +185,14 @@ article#devin {
   background-color: #E8E8E8;
 }
 
+article#devin div.title {
+  color: #111;
+}
+
+article#devin p.button a {
+  color: #111;
+}
+
 article#devin img {
   width: 63%;
 }
