@@ -180,3 +180,11 @@ article#avaant div.title {
 article#avaant img {
   border: 5px solid #fff;
 }
+
+article#devin {
+  background-color: #E8E8E8;
+}
+
+article#devin img {
+  width: 63%;
+}
