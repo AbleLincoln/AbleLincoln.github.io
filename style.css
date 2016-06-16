@@ -206,3 +206,15 @@ article#devin img {
 article#deloss {
   background-color: #493C8E;
 }
+
+article#deloss div.title {
+  color: #ffffff;
+}
+
+article#deloss p.button a:hover {
+  color: #493C8E;
+}
+
+article#deloss img {
+  width: 64%;
+}
