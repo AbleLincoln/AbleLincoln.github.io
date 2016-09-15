@@ -9,7 +9,7 @@ body {
 }
 
 header {
-  background-color: #445;
+  background-color: #fff;
 }
 
 header div.container {
@@ -23,12 +23,14 @@ header div.container {
 header h1, h2 {
   display: inline-block;
   text-align: left;
-  margin-left: 20px;
+  margin-left: 10px;
+  border-left: 4px solid rgb(251,134,46);
+  padding-left: 12px;
 }
 
 header h1 {
   font-size: 60px;
-  color: #fff;
+  color: #445;
   line-height: 1em;
 }
 
@@ -52,10 +54,10 @@ header ul li {
 }
 
 header ul li a {
-  color: #fff;
+  color: #445;
   text-decoration: none;
   padding: 8px;
-  border: 2px solid #fff;
+  border: 2px solid #445;
   border-radius: 5px;
   margin-left: 25px;
 
@@ -65,8 +67,8 @@ header ul li a {
 }
 
 header ul li a:hover {
-  color: #445;
-  background-color: #fff;
+  color: #fff;
+  background-color: #445;
 }
 
 /*Projects*/
