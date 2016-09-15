@@ -24,8 +24,6 @@ header h1, h2 {
   display: inline-block;
   text-align: left;
   margin-left: 10px;
-  border-left: 4px solid rgb(251,134,46);
-  padding-left: 12px;
 }
 
 header h1 {
@@ -36,6 +34,8 @@ header h1 {
 
 header h2 {
   color: rgb(251, 134, 46);
+  border-left: 4px solid rgb(251,134,46);
+  padding-left: 12px;
 }
 
 header h2 br {
