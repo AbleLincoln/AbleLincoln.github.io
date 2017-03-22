@@ -1,89 +1,105 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Andrew Maney's Portfolio</title>
 
-<head>
-  <title>Andrew Maney | Portfolio</title>
-  <link rel="stylesheet" href="style.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-  <script type="text/javascript" src="js/portfolio.js"></script>
-</head>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom style -->
+    <link rel="stylesheet" href="css/style.css">
 
-<body>
-  <header>
-    <div class="container">
-    <h1>Andrew<br>Maney</h1>
-    <h2>developer,<br>musician,<br>etc.</h2>
-    <ul>
-      <li><a href="http://www-scf.usc.edu/~amaney/itp104/resume.html" target="_blank">Resumé</a></li>
-      <li><a href="https://github.com/ablelincoln" target="_blank">GitHub</a></li>
-    </ul>
-    </div>
-  </header>
-
-  <article class="project" id="innboston">
-    <div class="title">
-      <h1>Inn Boston Reservations collection</h1>
-      <p class="button"><a href="javascript:;">Details, please</a></p>
-    </div>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
     <div class="content">
-      <p class="minimize button"><a href="javascript:;">x</a></p>
-      <img src="images/Screen%20Shot%202015-10-19%20at%2012.52.06%20PM.png" />
-      <p>
-        Inn Boston Reservations is a central reservation and property management service located in Boston. I designed and developed a collection of six websites for their newest properties. I centered my work around modern, simple design that conveyed the easy pleasure of renting one of these beautiful properties.
-      </p>
-      <p class="button"><a href="http://backbaybeacon.com/">See it live!</a></p>
+    <div class="container header">
+      <div class="row">
+        <div class="col-md-12">
+          <h1>Andrew Maney</h1>
+          <h2>I make websites</h2>
+        </div>
+      </div>
     </div>
-  </article>
 
-  <article class="project" id="devin">
-    <div class="title">
-      <h1>Devin Diamanté</h1>
-      <p class="button"><a href="javascript:;">Details, please</a></p>
-    </div>
-    <div class="content">
-      <p class="minimize button"><a href="javascript:;">x</a></p>
-      <img src="images/devin_site.png" />
-      <p>
-        Devin Diamanté is a high-class realtor working in Beverly Hills. I completely designed and developed the site from conception to launch. It is one of my most comprehensive and beautiful projects to date.
-      </p>
-      <p class="button"><a href="http://devindiamante.com/">See it live!</a></p>
-    </div>
-  </article>
+    <div class="container body">
 
-  <article class="project" id="deloss">
-    <div class="title">
-      <h1>C. Deloss Pickett</h1>
-      <p class="button"><a href="javascript:;">Details, please</a></p>
-    </div>
-    <div class="content">
-      <p class="minimize button"><a href="javascript:;">x</a></p>
-      <img src="images/delosssite.png" />
-      <p>
-        C. Deloss Pickett is a high-class realtor working in Beverly Hills. I completely designed and developed the site from conception to launch. It is one of my most comprehensive and beautiful projects to date.
-      </p>
-      <p class="button"><a href="http://delosspickett.com/">See it live!</a></p>
-    </div>
-  </article>
+      <!-- About -->
+      <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+          <h2>About Me</h2>
+          <hr>
+          <p>
+            I am a junior at the <span class="cardinal">University of Southern California</span> studying <strong>Physics</strong> and <strong>Computer Science</strong>
+          </p>
+          <p>
+            I am a freelance web developer. I strive to make my websites <strong>clean</strong>, <strong>minimal</strong>, and <strong>responsive</strong>. These are the design principles I live by.
+          </p>
+          <p>
+            I am proficient with modern web technologies including: HTML5, CSS3, Bootstrap, JavaScript, jQuery, Ruby, and Ruby on Rails.
+          </p>
+        </div>
+      </div>
+      <!-- end About -->
 
-  <!-- <article class="project" id="avaant">
-    <div class="title">
-      <h1>Avaant Inc.</h1>
-      <p class="button"><a href="javascript:;">Details, please</a></p>
-    </div>
-    <div class="content">
-      <p class="minimize button"><a href="javascript:;">x</a></p>
-      <img src="images/Screen%20Shot%202015-10-19%20at%209.12.41%20PM.png" />
-      <p>
-        Avaant Inc. is a startup launched at USC that aims to connect the entrepreneurial community on campus. It is the LinkedIn for startups and their early-stage employees. As CTO, I am currently in charge of developing the entire the site and managing the development team.
-      </p>
-      <p class="button"><a href="http://avaant.co/">See it live!</a></p>
-    </div>
-  </article> -->
-<!--    Work:
-Avaant.co
-InnBoston
+      <!-- Projects -->
+      <div class="row projects">
+        <div class="col-md-6 col-md-offset-3">
+          <h2>Projects</h2>
+          <hr>
+          <p class="date">March 2017</p>
+          <h3>Impact Cryotherapy</h3>
+        </div>
+        <div class="col-md-12 project-image">
+          <div class="overlay">
+            <a href="#" class="btn btn-default">View Site</a>
+          </div>
+          <img src="images/innboston.png" />
+        </div>
+        <div class="col-md-6 col-md-offset-3">
+          Blurb about this website. I loved making this website. It includes a form.
+          <hr>
+        </div>
 
--->
-</body>
+        <div class="col-md-6 col-md-offset-3">
+          <p class="date">August 2016</p>
+          <h3>Trojan Tutors</h3>
+        </div>
+        <div class="col-md-12 project-image">
+          <div class="overlay">
+            <a href="#" class="btn btn-default">View Site</a>
+          </div>
+          <img src="images/trojantutors.png" />
+        </div>
 
+        <!-- <div class="col-md-6 col-md-offset-3">
+          <h3>Premier Women's Care</h3>
+          <p></p>
+        </div>
+        <div class="col-md-12 project-image"></div>
+
+        <div class="col-md-6 col-md-offset-3"></div>
+        <div class="col-md-12 project-image"></div>
+
+        <div class="col-md-6 col-md-offset-3"></div>
+        <div class="col-md-12 project-image"></div> -->
+      </div>
+      <!-- end Projects -->
+
+    </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
 </html>
