@@ -13,19 +13,21 @@ hr {
   margin-top: 0;
   margin-bottom: 18px; }
 
-.header h1 {
-  font-size: 11vw;
-  text-align: center;
-  margin-top: 0; }
-.header h2 {
-  color: #378ea8;
-  position: absolute;
-  top: 0px;
-  right: 3vw;
-  background-color: transparent; }
-.header .nav a {
-  font-size: 25px;
-  color: #378ea8; }
+.header {
+  margin-top: 25px; }
+  .header h1 {
+    font-size: 11vw;
+    text-align: center;
+    margin-top: 0; }
+  .header h2 {
+    color: #378ea8;
+    position: absolute;
+    top: 0px;
+    right: 3vw;
+    background-color: transparent; }
+  .header .nav a {
+    font-size: 25px;
+    color: #378ea8; }
 
 .body h2 {
   margin-bottom: 8px; }
@@ -57,38 +59,31 @@ hr {
     color: #A9BD38; }
 .body .row {
   margin-bottom: 25px; }
-.body .projects hr {
+.body .project-title hr {
   margin-bottom: 35px; }
-.body .projects h3 {
-  text-align: center;
-  margin-top: 0px;
-  margin-bottom: 18px; }
-.body .projects p.date {
-  float: right;
-  position: absolute;
-  right: 0; }
-.body .projects .project-image {
-  padding: 0;
-  margin-bottom: 15px; }
-  .body .projects .project-image .preview-top {
+.body .project {
+  margin-bottom: 75px; }
+  .body .project hr {
+    margin-bottom: 35px; }
+  .body .project .project-image .preview-top {
     width: 100%;
     height: 40px;
     background: #e8e8e8;
     padding: 7px; }
-    .body .projects .project-image .preview-top [class^=circle-] {
+    .body .project .project-image .preview-top [class^=circle-] {
       width: 14px;
       height: 14px;
       display: inline-block;
       float: left;
       border-radius: 1000px;
       margin: 6px 0 0 8px; }
-      .body .projects .project-image .preview-top [class^=circle-].circle-red {
+      .body .project .project-image .preview-top [class^=circle-].circle-red {
         background: #d95b6a; }
-      .body .projects .project-image .preview-top [class^=circle-].circle-yellow {
+      .body .project .project-image .preview-top [class^=circle-].circle-yellow {
         background: #e0d85e; }
-      .body .projects .project-image .preview-top [class^=circle-].circle-green {
+      .body .project .project-image .preview-top [class^=circle-].circle-green {
         background: #5bd98a; }
-    .body .projects .project-image .preview-top .preview-url {
+    .body .project .project-image .preview-top .preview-url {
       width: 90%;
       height: 26px;
       float: right;
@@ -98,18 +93,18 @@ hr {
       color: #919191;
       padding: 2px 8px 0;
       margin-bottom: 0; }
-  .body .projects .project-image img {
+  .body .project .project-image img {
     width: 100%;
     border: 7px solid #e8e8e8;
     border-top: none; }
-  .body .projects .project-image .overlay {
+  .body .project .project-image .overlay {
     position: absolute;
     width: 100%;
     height: 100%;
     opacity: 0;
     background-color: rgba(0, 0, 0, 0.75);
     transition: opacity 750ms; }
-    .body .projects .project-image .overlay .btn {
+    .body .project .project-image .overlay .btn {
       font-size: 22px;
       position: absolute;
       top: 50%;
@@ -119,22 +114,25 @@ hr {
       border-radius: 0px;
       box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, 0.25);
       padding: 10px 20px; }
-  .body .projects .project-image:hover .overlay {
+  .body .project .project-image:hover .overlay {
     opacity: 1; }
-.body .projects .blurb {
-  text-align: center; }
-  .body .projects .blurb p {
-    margin-bottom: 15px; }
-  .body .projects .blurb .btn {
-    font-size: 22px;
-    color: #378ea8;
-    border-radius: 0px;
-    border: 2px solid rgba(55, 142, 168, 0.5);
-    margin-bottom: 25px;
-    transition: all 500ms; }
-    .body .projects .blurb .btn:hover, .body .projects .blurb .btn:focus, .body .projects .blurb .btn:active {
-      background-color: #378ea8;
-      color: #fff;
-      box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.25); }
+  .body .project .blurb {
+    text-align: center; }
+    .body .project .blurb h3 {
+      text-align: center;
+      margin-bottom: 18px; }
+    .body .project .blurb p {
+      margin-bottom: 15px; }
+    .body .project .blurb .btn {
+      font-size: 22px;
+      color: #378ea8;
+      border-radius: 0px;
+      border: 2px solid rgba(55, 142, 168, 0.5);
+      margin-top: 20px;
+      transition: all 500ms; }
+      .body .project .blurb .btn:hover, .body .project .blurb .btn:focus, .body .project .blurb .btn:active {
+        background-color: #378ea8;
+        color: #fff;
+        box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.25); }
 
 /*# sourceMappingURL=style.css.map */
