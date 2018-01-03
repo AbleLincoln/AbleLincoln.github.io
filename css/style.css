@@ -13,6 +13,19 @@ hr {
   margin-top: 0;
   margin-bottom: 18px; }
 
+.btn {
+  font-size: 22px;
+  color: #378ea8;
+  border-radius: 0px;
+  border: 2px solid rgba(55, 142, 168, 0.5);
+  margin-top: 20px;
+  transition: all 500ms; }
+  .btn:hover, .btn:focus, .btn:active {
+    background-color: #378ea8;
+    color: #fff;
+    border-color: rgba(55, 142, 168, 0.5);
+    box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.25); }
+
 .header {
   margin-top: 25px; }
   .header h1 {
@@ -57,8 +70,17 @@ hr {
     color: #0073AA; }
   .body p .monkey-text {
     color: #A9BD38; }
+  .body p .node-text {
+    color: #007600; }
+  .body p .nodemailer-text {
+    color: #00BF75; }
 .body .row {
   margin-bottom: 25px; }
+.body .buttons {
+  display: flex; }
+  .body .buttons > a {
+    flex-grow: 1;
+    margin: 10px; }
 .body .project-title hr {
   margin-bottom: 35px; }
 .body .project {
@@ -123,16 +145,5 @@ hr {
       margin-bottom: 18px; }
     .body .project .blurb p {
       margin-bottom: 15px; }
-    .body .project .blurb .btn {
-      font-size: 22px;
-      color: #378ea8;
-      border-radius: 0px;
-      border: 2px solid rgba(55, 142, 168, 0.5);
-      margin-top: 20px;
-      transition: all 500ms; }
-      .body .project .blurb .btn:hover, .body .project .blurb .btn:focus, .body .project .blurb .btn:active {
-        background-color: #378ea8;
-        color: #fff;
-        box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.25); }
 
 /*# sourceMappingURL=style.css.map */
