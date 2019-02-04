@@ -74,6 +74,11 @@ hr {
     color: #007600; }
   .body p .nodemailer-text {
     color: #00BF75; }
+  .body p .react-text {
+    color: #61dafb; }
+  .body p .ng-text {
+    color: #c3002f; }
+  
 .body .row {
   margin-bottom: 25px; }
 .body .buttons {

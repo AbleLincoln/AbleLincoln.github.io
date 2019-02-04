@@ -1,178 +1,199 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Andrew Maney's Portfolio</title>
 
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <!-- Custom style -->
-    <link rel="stylesheet" href="css/style.css">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>Andrew Maney's Portfolio</title>
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom style -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-  </head>
-  <body>
-    <div class="container header">
-      <div class="row">
-        <div class="col-md-12">
-          <h1>Andrew Maney</h1>
-          <h2>I make websites</h2>
+</head>
+
+<body>
+  <div class="container header">
+    <div class="row">
+      <div class="col-md-12">
+        <h1>Andrew Maney</h1>
+        <h2>I make websites</h2>
+      </div>
+    </div>
+  </div>
+
+  <div class="container body">
+
+    <!-- About -->
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3">
+        <h2>About Me</h2>
+        <hr>
+        <p>
+          I am a freelance web developer. I strive to make my websites <strong>clean</strong>, <strong>minimal</strong>,
+          and <strong>responsive</strong>. These are the design principles I live by.
+        </p>
+        <p>
+          I graduated from the <span class="cardinal">University of Southern California</span> with a degree in <strong>Physics</strong>
+          and <strong>Computer Science</strong>
+        </p>
+        <p>
+          I am proficient in modern web technologies including: <span class="html-text">HTML5</span>, <span class="css-text">CSS3</span>,
+          <span class="sass-text">Sass</span>, <span class="boot-text">Bootstrap</span>, <span class="js-text">JavaScript</span>,
+          <span class="node-text">Node.js</span>, <span class="react-text">React</span>, and <span class="ng-text">Angular</span>.
+        </p>
+        <div class="buttons">
+          <a href="images/Resume.pdf" class="btn btn-default" target="_blank">Resumé</a>
+          <a href="https://github.com/AbleLincoln" class="btn btn-default" target="_blank">Github</a>
+          <a href="#contact" class="btn btn-default">Contact</a>
         </div>
       </div>
     </div>
+    <!-- end About -->
 
-    <div class="container body">
-
-      <!-- About -->
-      <div class="row">
-        <div class="col-md-6 col-md-offset-3">
-          <h2>About Me</h2>
-          <hr>
-          <p>
-            I am a senior at the <span class="cardinal">University of Southern California</span> studying <strong>Physics</strong> and <strong>Computer Science</strong>
-          </p>
-          <p>
-            I am a freelance web developer. I strive to make my websites <strong>clean</strong>, <strong>minimal</strong>, and <strong>responsive</strong>. These are the design principles I live by.
-          </p>
-          <p>
-            I am proficient in modern web technologies including: <span class="html-text">HTML5</span>, <span class="css-text">CSS3</span>, <span class="sass-text">Sass</span>, <span class="boot-text">Bootstrap</span>, <span class="js-text">JavaScript</span>, <span class="node-text">Node.js</span>, <span class="jq-text">jQuery</span>, <span class="ruby-text">Ruby</span>, and <span class="rails-text">Ruby on Rails</span>.
-          </p>
-          <div class="buttons">
-            <a href="images/Resume.pdf" class="btn btn-default" target="_blank">Resumé</a>
-            <a href="https://github.com/AbleLincoln" class="btn btn-default" target="_blank">Github</a>
-            <a href="#contact" class="btn btn-default">Contact</a>
-          </div>
-        </div>
+    <!-- Projects -->
+    <div class="row project-title">
+      <div class="col-md-6 col-md-offset-3">
+        <h2>Projects</h2>
+        <hr>
       </div>
-      <!-- end About -->
-
-      <!-- Projects -->
-      <div class="row project-title">
-        <div class="col-md-6 col-md-offset-3">
-          <h2>Projects</h2>
-          <hr>
-        </div>
-      </div>
-
-      <div class="row project">
-        <div class="col-md-8 project-image">
-          <div class="preview-top">
-            <span class="circle-red"></span>
-            <span class="circle-yellow"></span>
-            <span class="circle-green"></span>
-            <p class="preview-url">https://chefit.com/</p>
-          </div>
-          <img src="images/chefitsite.png" />
-        </div>
-        <div class="col-md-4 blurb">
-          <h3>CHEFIT</h3>
-          <p>
-            CHEFIT is an on-demand personal chef service. I built the app with <span class="node-text">Node.js</span>. I implemented a reservation form as well as payment via <span class="square-text">Square API</span> and automated email via <span class="nodemailer-text">Nodemailer API</span>. I also designed and developed the front-end with vanilla <span class="js-text">JavaScript</span> and <span class="css-text">CSS</span>.
-          </p>
-          <a href="http://www.getchefit.com/" class="btn btn-default" target="_blank">View Site</a>
-        </div>
-      </div>
-
-      <div class="row project">
-        <div class="col-md-8 project-image">
-          <div class="preview-top">
-            <span class="circle-red"></span>
-            <span class="circle-yellow"></span>
-            <span class="circle-green"></span>
-            <p class="preview-url">http://trojantutors.com/</p>
-          </div>
-          <img src="images/tutors-large.png" />
-        </div>
-        <div class="col-md-4 blurb">
-          <h3>Trojan Tutoring</h3>
-          <p>
-            Trojan Tutors is my own tutoring company. I created this website to collect student sign-ups and market the company. I used <span class="boot-text">Bootstrap</span> for the layout and <span class="jq-text">jQuery</span> for the animations. I'm very proud of the UI on this site. Go ahead and click around, check out the fun animations!
-          </p>
-          <a href="http://trojantutors.com/" class="btn btn-default" target="_blank">View Site</a>
-        </div>
-      </div>
-
-        <div class="row project">
-          <div class="col-md-8 project-image">
-            <div class="preview-top">
-              <span class="circle-red"></span>
-              <span class="circle-yellow"></span>
-              <span class="circle-green"></span>
-              <p class="preview-url">https://impactcryo.com/fitness-entrepreneur/</p>
-            </div>
-            <img src="images/impactsite.png" />
-          </div>
-          <div class="col-md-4 blurb">
-            <h3>Impact Cryotherapy</h3>
-            <p>Impact Cryotherapy is a cold-air suana distributor. I developed the landing page for their marketing campaign targeted at entrepreneurs. The page was built on <span class="wp-text">Wordpress</span>, but most of the styles I did by hand. I also created a signup form which I integrated with <span class="monkey-text">Survey Monkey</span>.
-            </p>
-            <a href="https://impactcryo.com/fitness-entrepreneur/" class="btn btn-default" target="_blank">View Page</a>
-          </div>
-        </div>
-
-      <div class="row project">
-        <div class="col-md-8 project-image">
-          <div class="preview-top">
-            <span class="circle-red"></span>
-            <span class="circle-yellow"></span>
-            <span class="circle-green"></span>
-            <p class="preview-url">http://from-light.com/</p>
-          </div>
-          <img src="images/from-lightsite.png" />
-        </div>
-        <div class="col-md-4 blurb">
-          <h3>From Light</h3>
-          <p>
-            From Light is an indie game developed at <span class="cardinal">USC</span>. I was asked to update their website. I created a form, integrated a video, and added a credits page. The design is ethereal yet simple, mimicking the design styles of the game.
-          </p>
-          <a href="http://from-light.com/" class="btn btn-default" target="_blank">View Site</a>
-        </div>
-      </div>
-
-      <div class="row project">
-        <div class="col-md-8 project-image">
-          <div class="preview-top">
-            <span class="circle-red"></span>
-            <span class="circle-yellow"></span>
-            <span class="circle-green"></span>
-            <p class="preview-url">http://premierwomenscare.net/</p>
-          </div>
-          <img src="images/womens-site.png" />
-        </div>
-        <div class="col-md-4 blurb">
-          <h3>Premier Women's Care</h3>
-          <p>
-            Premier Women's Care is a prominent OB-GYN located in The Woodlands, Texas. As the homepage for a medical service, I desiged the site with <strong>accessibility</strong> and <strong>ease-of-use</strong> in mind. The site is single page with a speedy tab-based navigation. It includes contact information, available services, and important forms and documents.
-          </p>
-          <a href="http://premierwomenscare.net/" class="btn btn-default" target="_blank">View Site</a>
-        </div>
-      </div>
-      <!-- end Projects -->
-
-      <!-- Contact -->
-      <div class="row" id="contact">
-        <div class="col-md-6 col-md-offset-3">
-          <h2>Contact</h2>
-          <hr>
-          <p>
-            Feel free to email me at <strong>amaney@usc.edu</strong>
-          </p>
-        </div>
-      </div>
-
     </div>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
-  </body>
+    <div class="row project">
+      <div class="col-md-8 project-image">
+        <div class="preview-top">
+          <span class="circle-red"></span>
+          <span class="circle-yellow"></span>
+          <span class="circle-green"></span>
+          <p class="preview-url">https://chefit.com/</p>
+        </div>
+        <img src="images/chefitsite.png" />
+      </div>
+      <div class="col-md-4 blurb">
+        <h3>CHEFIT</h3>
+        <p>
+          CHEFIT is an on-demand personal chef service. I built the app with <span class="node-text">Node.js</span>. I
+          implemented a reservation form as well as payment via <span class="square-text">Square API</span> and
+          automated email via <span class="nodemailer-text">Nodemailer API</span>. I also designed and developed the
+          front-end with vanilla <span class="js-text">JavaScript</span> and <span class="css-text">CSS</span>.
+        </p>
+        <a href="http://www.getchefit.com/" class="btn btn-default" target="_blank">View Site</a>
+      </div>
+    </div>
+
+    <div class="row project">
+      <div class="col-md-8 project-image">
+        <div class="preview-top">
+          <span class="circle-red"></span>
+          <span class="circle-yellow"></span>
+          <span class="circle-green"></span>
+          <p class="preview-url">http://trojantutors.com/</p>
+        </div>
+        <img src="images/tutors-large.png" />
+      </div>
+      <div class="col-md-4 blurb">
+        <h3>Trojan Tutoring</h3>
+        <p>
+          Trojan Tutors is my own tutoring company. I created this website to collect student sign-ups and market the
+          company. I used <span class="boot-text">Bootstrap</span> for the layout and <span class="jq-text">jQuery</span>
+          for the animations. I'm very proud of the UI on this site. Go ahead and click around, check out the fun
+          animations!
+        </p>
+        <a href="http://trojantutors.com/" class="btn btn-default" target="_blank">View Site</a>
+      </div>
+    </div>
+
+    <div class="row project">
+      <div class="col-md-8 project-image">
+        <div class="preview-top">
+          <span class="circle-red"></span>
+          <span class="circle-yellow"></span>
+          <span class="circle-green"></span>
+          <p class="preview-url">https://impactcryo.com/fitness-entrepreneur/</p>
+        </div>
+        <img src="images/impactsite.png" />
+      </div>
+      <div class="col-md-4 blurb">
+        <h3>Impact Cryotherapy</h3>
+        <p>Impact Cryotherapy is a cold-air suana distributor. I developed the landing page for their marketing
+          campaign targeted at entrepreneurs. The page was built on <span class="wp-text">Wordpress</span>, but most of
+          the styles I did by hand. I also created a signup form which I integrated with <span class="monkey-text">Survey
+            Monkey</span>.
+        </p>
+        <a href="https://impactcryo.com/fitness-entrepreneur/" class="btn btn-default" target="_blank">View Page</a>
+      </div>
+    </div>
+
+    <div class="row project">
+      <div class="col-md-8 project-image">
+        <div class="preview-top">
+          <span class="circle-red"></span>
+          <span class="circle-yellow"></span>
+          <span class="circle-green"></span>
+          <p class="preview-url">http://from-light.com/</p>
+        </div>
+        <img src="images/from-lightsite.png" />
+      </div>
+      <div class="col-md-4 blurb">
+        <h3>From Light</h3>
+        <p>
+          From Light is an indie game developed at <span class="cardinal">USC</span>. I was asked to update their
+          website. I created a form, integrated a video, and added a credits page. The design is ethereal yet simple,
+          mimicking the design styles of the game.
+        </p>
+        <a href="http://from-light.com/" class="btn btn-default" target="_blank">View Site</a>
+      </div>
+    </div>
+
+    <div class="row project">
+      <div class="col-md-8 project-image">
+        <div class="preview-top">
+          <span class="circle-red"></span>
+          <span class="circle-yellow"></span>
+          <span class="circle-green"></span>
+          <p class="preview-url">http://premierwomenscare.net/</p>
+        </div>
+        <img src="images/womens-site.png" />
+      </div>
+      <div class="col-md-4 blurb">
+        <h3>Premier Women's Care</h3>
+        <p>
+          Premier Women's Care is a prominent OB-GYN located in The Woodlands, Texas. As the homepage for a medical
+          service, I desiged the site with <strong>accessibility</strong> and <strong>ease-of-use</strong> in mind. The
+          site is single page with a speedy tab-based navigation. It includes contact information, available services,
+          and important forms and documents.
+        </p>
+        <a href="http://premierwomenscare.net/" class="btn btn-default" target="_blank">View Site</a>
+      </div>
+    </div>
+    <!-- end Projects -->
+
+    <!-- Contact -->
+    <div class="row" id="contact">
+      <div class="col-md-6 col-md-offset-3">
+        <h2>Contact</h2>
+        <hr>
+        <p>
+          Feel free to email me at <strong>maneyandrew@gmail.com</strong>
+        </p>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="js/bootstrap.min.js"></script>
+</body>
+
 </html>
