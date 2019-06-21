@@ -43,9 +43,18 @@ hr {
   margin-top: 25px;
 }
 .header h1 {
+  position: relative;
   font-size: 11vw;
   text-align: center;
   margin-top: 0;
+}
+.header h1 span {
+  position: absolute;
+  top: 0;
+  right: 15px;
+  transform: translateY(-25%);
+  color: #378ea8;
+  font-size: 3vw;
 }
 .header h2 {
   color: #378ea8;
