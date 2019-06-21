@@ -56,13 +56,6 @@ hr {
   color: #378ea8;
   font-size: 3vw;
 }
-.header h2 {
-  color: #378ea8;
-  position: absolute;
-  top: 0px;
-  right: 3vw;
-  background-color: transparent;
-}
 .header .nav a {
   font-size: 25px;
   color: #378ea8;
